@@ -18,3 +18,14 @@ body{
   width: 369px;
   justify-content: space-between;
 }
+
+.logo{
+  width: 143px;
+  height: 77px;
+  /* padding: 45px 15px 15px 15px; */
+    background-color: #FA5C65;
+}
+.logo_text{
+  padding: 45px 15px 15px 15px;
+
+}
