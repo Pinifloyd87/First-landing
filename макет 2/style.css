@@ -9,21 +9,47 @@ body{
   background-color:rgba(255, 255, 255, 1);
 }
 
+header{
+  min-width: 1370px;
+  min-height: 1057px;
+  background-image:url(/images/FOTO-HEADER.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-attachment: fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+.main_block{
+  display: flex;
+  justify-content: space-between;
+}
 .menu{
   display: flex;
+  margin-right: 210px;
 }
 .menu ul{
   display: flex;
   flex-direction: row;
   width: 369px;
   justify-content: space-between;
+  text-decoration: none;
 }
-
+.socials{
+  margin-left:30px ;
+  
+}
+.Twitter{
+  margin-right: 23px;
+}
 .logo{
   width: 143px;
   height: 77px;
   /* padding: 45px 15px 15px 15px; */
     background-color: #FA5C65;
+    margin-left: 210px;
 }
 .logo_text{
   padding: 45px 15px 15px 15px;
